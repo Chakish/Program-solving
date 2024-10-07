@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+   int a,b,sum=0;
+   printf("enter any number to be revesed:");
+   scanf("%d",&a);
+    
+    
+    while(a>=1){
+        b=a%10;
+        a=a/10;
+        sum=sum*10+b;
+    }
+    
+    a=sum;
+    printf("\n\nafter reversing: %d",a);
+    return 0;
+}
+
+
+
+
+
+OUTPUT
+
+/tmp/S0i5nmK5XO.o
+enter any number to be revesed:12
+
+
+after reversing: 21
+
+=== Code Execution Successful ===
